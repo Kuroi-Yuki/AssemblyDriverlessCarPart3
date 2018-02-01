@@ -78,20 +78,20 @@ Note that you need to install Tensorflow and Keras only on the environment that 
 ![Architecture](images/architecture.jpg)
 
 As seen in the architecture image, the car collects sensor data and images, then they are all sent to a local server for processing. For training, the images are sent to train a model built with Keras, however when deployed, the images are passed on to this model which returns an instruction. The instruction is then passed back to the raspberry pi which in turn sends commands to the motors.
-
+https://github.com/Kuroi-Yuki/AssemblyDriverlessCarPart3/tree/master/Computer
 ## Car
 
-In the [Raspberry Pi Folder]('RaspberrPI/'), there are 2 files: 
+In the [Raspberry Pi Folder](https://github.com/Kuroi-Yuki/AssemblyDriverlessCarPart3/tree/master/RaspberrPI/), there are 2 files: 
 
 * `control_rc.py`: receives commands from the computer to control the car.
 * `send_data_inti.py`: sends data from the car back to the computer for processing.
 
-In the [Arduino Folder]('Arduino/'), there is 1 file: 
+In the [Arduino Folder](https://github.com/Kuroi-Yuki/AssemblyDriverlessCarPart3/tree/master/Arduino/), there is 1 file: 
 * `rc_control_arduino.ino`: sends commands from the raspberry pi to the arduino to instruct the motor to rotate.
 
 ## Computer
 
-In the [Computer Folder]('Computer/'), there are 4 files, two scripts and two model files:
+In the [Computer Folder](https://github.com/Kuroi-Yuki/AssemblyDriverlessCarPart3/tree/master/Computer), there are 4 files, two scripts and two model files:
 
 * `collect_training_data.py`: Receives the data sent from the car and saves it on the computer.
 * `model.py`: used to train the models based on the data collected from the car. The model is built from the image data collected. 
