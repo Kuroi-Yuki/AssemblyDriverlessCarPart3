@@ -100,12 +100,17 @@ In the [Computer Folder]('Computer/'), there are 4 files, two scripts and two mo
 ## The Model
 
 ![Model](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/inference-624x132.png)
-**The trained network is used to generate steering commands from a single front-facing center camera.**
+
+**Figure Above: The trained network is used to generate steering commands from a single front-facing center camera**
 
 
-The trained Machine Learning model is built with Keras on top of Tensorflow. It was developed by [Nvidia](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) for their self driving cars, and was adapted for the purpose of this workshop. 
+
+The trained Machine Learning model is built with Keras on top of Tensorflow. It was developed by [Nvidia](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) for their self driving cars, and was adapted for the purpose of this workshop.
+
 
 ![CNN](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png)
+
+**Figure Above: CNN architecture**
 
 In principle, the model takes in the images from the camera and then produces a command dependant on the position of the lanes in the camera frame. 
 
@@ -154,4 +159,4 @@ and adding the snippet that will make the prediction, based on which commands wi
 
 ## Bonus Activity
 
-Check out [this link](https://github.com/Kuroi-Yuki/Node-RED-IBM-Cloud-Demo-for-the-Assembly-Workshop-Make-a-Driverless-Car-Part-1) to learn how to create a a Node-RED application that is supposed to grab car probe data from a Raspberry PI that is positioned inside an RC car and visualize both the data and the driver behavior analysis (the car was assembled slightly differently in the repository linked here).
+Check out [this link](https://github.com/Kuroi-Yuki/Node-RED-IBM-Cloud-Demo-for-the-Assembly-Workshop-Make-a-Driverless-Car-Part-1) to learn how to create a a Node-RED application that is supposed to grab car probe data from a Raspberry PI that is positioned inside an RC car and visualize both the data and the driver behavior analysis (the car was assembled slightly differently in the repository linked here.
