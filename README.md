@@ -99,11 +99,11 @@ In the [Computer Folder]('Computer/'), there are 4 files, two scripts and two mo
 
 ## The Model
 
-![Model](images/model.jpg)
+![Model](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/inference-624x132.png)
 
 The trained Machine Learning model is built with Keras on top of Tensorflow. It was developed by [Nvidia](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) for their self driving cars, and was adapted for the purpose of this workshop. 
 
-![CNN](images/cnn.jpg)
+![CNN](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png)
 
 In principle, the model takes in the images from the camera and then produces a command dependant on the position of the lanes in the camera frame. 
 
