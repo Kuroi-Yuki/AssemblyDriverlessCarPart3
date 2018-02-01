@@ -5,7 +5,7 @@ This repository walks you through building a driverless car. It is composed of t
 
 ## Requirements 
 
-Set up Python 2 environment on the Raspberry Pi. To run the data collection script, you will need to set up Python 2.7 on Anaconda; whereas, to run the script that will do the model training, you will need to use Python 3.6 on Anaconda (Follow the instructions below to set up the environment, bearing in mind the version of Python to be used).
+Set up Python 2 environment on the Raspberry PI. To run the data collection script, you will need to set up Python 2.7 on Anaconda; whereas, to run the script that will do the model training, you will need to use Python 3.6 on Anaconda (Follow the instructions below to set up the environment, bearing in mind the version of Python to be used).
 
 Make sure to assemble the car beforehand as per the instructions [here](IBM_selfdriving/IBM.jpg). 
 
@@ -13,7 +13,7 @@ Make sure to assemble the car beforehand as per the instructions [here](IBM_self
 
 **1.Install Anaconda**
 
-You can either install Anaconda from [here](https://docs.anaconda.com/anaconda/install/), or Get [miniconda](http://conda.pydata.org/miniconda.html), which is a lighter version of Anaconda, on your machine. Detailed instructions for miniconda: http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install
+You can either install Anaconda from [here](https://docs.anaconda.com/anaconda/install/), or get [miniconda](http://conda.pydata.org/miniconda.html), which is a lighter version of Anaconda, on your machine. Detailed instructions for miniconda: http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install
   
 
 **2.Setup the environments**
