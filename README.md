@@ -100,6 +100,8 @@ In the [Computer Folder]('Computer/'), there are 4 files, two scripts and two mo
 ## The Model
 
 ![Model](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/inference-624x132.png)
+**The trained network is used to generate steering commands from a single front-facing center camera.**
+
 
 The trained Machine Learning model is built with Keras on top of Tensorflow. It was developed by [Nvidia](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) for their self driving cars, and was adapted for the purpose of this workshop. 
 
