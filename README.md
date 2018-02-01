@@ -154,4 +154,4 @@ and adding the snippet that will make the prediction, based on which commands wi
 
 ## Bonus Activity
 
-Check out [this link](https://github.com/Kuroi-Yuki/Node-RED-IBM-Cloud-Demo-for-the-Assembly-Workshop-Make-a-Driverless-Car-Part-1) to learn how to create a a Node-RED application that is supposed to grab car probe data from a Raspberry PI that is positioned inside an RC car and visualize both the data and the driver behavior analysis (the car was assembled slightly differently in the repository linked here.
+Check out [this link](https://github.com/Kuroi-Yuki/Node-RED-IBM-Cloud-Demo-for-the-Assembly-Workshop-Make-a-Driverless-Car-Part-1) to learn how to create a a Node-RED application that is supposed to grab car probe data from a Raspberry PI that is positioned inside an RC car and visualize both the data and the driver behavior analysis (the car was assembled slightly differently in the repository linked here).
